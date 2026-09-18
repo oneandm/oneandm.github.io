@@ -5,23 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#08111f" />
   <meta name="description" content="Personal space — music, series, and gallery." />
-  <title>Personal Space — Liquid Glass</title>
+  <title>oneandm — Personal Space</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="ambient ambient-one"></div>
   <div class="ambient ambient-two"></div>
   <video class="backdrop-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2000&q=85">
-    <!-- Ganti src video di bawah ini dengan video kamu sendiri. -->
     <source src="https://cdn.coverr.co/videos/coverr-a-night-sky-with-stars-1573/1080p.mp4" type="video/mp4" />
   </video>
   <div class="video-shade"></div>
 
   <header class="topbar glass">
-    <a class="brand" href="#home" aria-label="Kembali ke beranda"><span class="brand-dot"></span><span>your<span class="muted-text">space</span></span></a>
+    <a class="brand" href="#home" aria-label="Kembali ke beranda"><span class="brand-dot"></span><span>one<span class="muted-text">andm</span></span></a>
     <nav class="desktop-nav" aria-label="Navigasi utama">
       <a class="nav-link active" href="#home">Home</a>
       <a class="nav-link" href="#music">Music</a>
@@ -39,21 +38,37 @@
     <section class="hero section" id="home">
       <div class="hero-copy reveal">
         <span class="eyebrow"><span class="status-dot"></span> personal space · 2025</span>
-        <h1>Welcome to<br /><em>my little universe.</em></h1>
-        <p class="hero-description">Tempat kecil untuk menyimpan hal-hal yang aku suka — musik yang menemani, cerita yang tinggal, dan momen yang ingin diingat.</p>
-        <div class="hero-actions"><a class="primary-button" href="#music">Explore my world <span>↗</span></a><a class="text-button" href="#gallery">Lihat gallery <span>↓</span></a></div>
+        <h1>Chasing<br /><em>quiet moments.</em></h1>
+        <p class="hero-description">A small place for the music I keep replaying, the series I keep thinking about, and the memories I want to keep alive.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#music">Explore <span>↗</span></a>
+          <a class="text-button" href="#gallery">View gallery <span>↓</span></a>
+        </div>
       </div>
       <div class="hero-card glass reveal delay-one">
-        <div class="avatar">✦</div><p class="quote">“Collecting moments,<br />not things.”</p><div class="card-footer"><span>currently feeling</span><strong>✦ dreamy</strong></div>
+        <div class="avatar">✦</div>
+        <p class="quote">“Collecting small, beautiful moments.”</p>
+        <div class="card-footer"><span>currently feeling</span><strong>dreamy</strong></div>
       </div>
       <div class="scroll-cue"><span>scroll to explore</span><i></i></div>
     </section>
 
     <section class="section content-section" id="music">
-      <div class="section-heading reveal"><div><span class="eyebrow">01 / soundtrack</span><h2>On repeat <span>♪</span></h2></div><p>Musik yang sedang menemani<br />hari-hariku.</p></div>
+      <div class="section-heading reveal">
+        <div><span class="eyebrow">01 / soundtrack</span><h2>On repeat <span>♪</span></h2></div>
+        <p>Music that keeps me company<br />through the week.</p>
+      </div>
       <div class="music-layout">
         <article class="now-playing glass reveal">
-          <div class="album-art gradient-art"><span>♪</span></div><div class="playing-info"><span class="eyebrow">now playing</span><h3>Judul Lagu Kamu</h3><p>Nama Artis · Nama Album</p><div class="progress"><span></span></div><div class="time-row"><span>1:24</span><span>3:48</span></div><div class="player-controls"><button>↶</button><button class="play-button" id="playButton">▶</button><button>↷</button></div></div>
+          <div class="album-art gradient-art"><span>♪</span></div>
+          <div class="playing-info">
+            <span class="eyebrow">now playing</span>
+            <h3>Judul Lagu Kamu</h3>
+            <p>Nama Artis · Nama Album</p>
+            <div class="progress"><span></span></div>
+            <div class="time-row"><span>1:24</span><span>3:48</span></div>
+            <div class="player-controls"><button>↶</button><button class="play-button" id="playButton">▶</button><button>↷</button></div>
+          </div>
         </article>
         <div class="track-list reveal delay-one">
           <div class="track-list-head"><span>favorite tracks</span><span>04 songs</span></div>
@@ -66,7 +81,10 @@
     </section>
 
     <section class="section content-section" id="series">
-      <div class="section-heading reveal"><div><span class="eyebrow">02 / watchlist</span><h2>Stories I love <span>✦</span></h2></div><p>Series yang pernah meninggalkan<br />kesan di kepalaku.</p></div>
+      <div class="section-heading reveal">
+        <div><span class="eyebrow">02 / watchlist</span><h2>Stories I love <span>✦</span></h2></div>
+        <p>Series that left a mark and stayed with me.</p>
+      </div>
       <div class="series-grid">
         <article class="series-card glass reveal"><div class="poster poster-one"><span>01</span></div><div class="series-meta"><div><h3>Judul Series Kamu</h3><p>Drama · 2024</p></div><span class="rating">★ 9.0</span></div></article>
         <article class="series-card glass reveal delay-one"><div class="poster poster-two"><span>02</span></div><div class="series-meta"><div><h3>Tambahkan Series</h3><p>Genre · Tahun</p></div><span class="rating">★ 8.7</span></div></article>
@@ -76,13 +94,26 @@
     </section>
 
     <section class="section content-section" id="gallery">
-      <div class="section-heading reveal"><div><span class="eyebrow">03 / visual diary</span><h2>Scenes I keep <span>⌁</span></h2></div><p>Potongan kecil dari dunia<br />yang pernah aku kunjungi.</p></div>
-      <div class="gallery-grid reveal"><button class="gallery-item gallery-tall" data-caption="A moment worth remembering"><span>foto series kamu</span></button><button class="gallery-item gallery-wide" data-caption="Quiet places, loud feelings"><span>foto series kamu</span></button><button class="gallery-item" data-caption="A scene that stayed"><span>foto series kamu</span></button><button class="gallery-item" data-caption="The little details"><span>foto series kamu</span></button><button class="gallery-item gallery-wide" data-caption="Until the next story"><span>foto series kamu</span></button></div>
-      <p class="edit-hint">Tip: ganti background pada <code>styles.css</code> dan foto gallery pada bagian <code>.gallery-item</code>.</p>
+      <div class="section-heading reveal">
+        <div><span class="eyebrow">03 / visual diary</span><h2>Scenes I keep <span>⌁</span></h2></div>
+        <p>Little fragments from the world I’ve visited.</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <button class="gallery-item gallery-tall" data-caption="A moment worth remembering"><span>foto series kamu</span></button>
+        <button class="gallery-item gallery-wide" data-caption="Quiet places, loud feelings"><span>foto series kamu</span></button>
+        <button class="gallery-item" data-caption="A scene that stayed"><span>foto series kamu</span></button>
+        <button class="gallery-item" data-caption="The little details"><span>foto series kamu</span></button>
+        <button class="gallery-item gallery-wide" data-caption="Until the next story"><span>foto series kamu</span></button>
+      </div>
+      <p class="edit-hint">Tip: ganti background pada <code>styles.css</code> dan item gallery di <code>.gallery-item</code>.</p>
     </section>
   </main>
 
-  <footer class="footer section"><div class="footer-line"></div><div><span>made with curiosity &amp; caffeine</span><span>© 2025 your name</span></div></footer>
+  <footer class="footer section">
+    <div class="footer-line"></div>
+    <div><span>made with curiosity &amp; caffeine</span><span>© 2025 oneandm</span></div>
+  </footer>
+
   <div class="mobile-menu glass" id="mobileMenu"><a href="#home">Home</a><a href="#music">Music</a><a href="#series">Series</a><a href="#gallery">Gallery</a></div>
   <div class="lightbox" id="lightbox"><button class="lightbox-close" id="lightboxClose">×</button><div class="lightbox-content"><div id="lightboxImage"></div><p id="lightboxCaption"></p></div></div>
   <script src="script.js"></script>
