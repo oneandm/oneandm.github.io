@@ -3,7 +3,7 @@
 ok so this is my personal profile site. not a cv, not a portfolio, no "hire me" energy. it's literally just my spotify playlist, my socials, my email, a live clock and a birthday calendar that keeps repeating every year. everything is wrapped in that apple liquid glass look on a gray background cuz i'm obsessed with it rn.
 
 **live site:** https://oneandm.github.io 
-![preview](preview.png)
+![preview](https://files.catbox.moe/wqxlqu.png)
 
 ---
 
